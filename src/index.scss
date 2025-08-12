@@ -1,0 +1,132 @@
+@use "sass:color";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "poppins";
+    line-height: 1.5;
+    background-color: #f8f8f8;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+    --font-1: "Roboto";
+    --font-2: "Poppins";
+    --font-3: "Agdasima";
+    --font-4: "Monda";
+    --clr_1: #ff9100;
+    --clr_2: #f0a80c;
+}
+
+$clr-1: #ffe600;
+
+.bton {
+    cursor: pointer;
+    border: 2px solid #000;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: background-color 300ms;
+
+    &.subm {
+        border: 2px solid var(--clr_1);
+        font-size: 1.2rem;
+
+        &:hover {
+            border: 2px solid #000;
+            background-color: var(--clr_1);
+        }
+    }
+
+    &:hover {
+        background-color: var(--clr_1);
+    }
+
+    &:active {
+        background-color: color.scale(#f0a80c, $lightness: 10%);
+    }
+
+    @media (max-width: 1025px) {
+        font-size: 1.1rem;
+    }
+
+    @media (max-width: 769px) {
+        font-size: 1rem;
+        padding: 1rem 1rem;
+    }
+
+    @media (max-width: 426px) {
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+}
+
+.individual_heading {
+    font-size: 5rem;
+
+    @media (max-width: 769px) {
+        font-size: 3.5rem;
+    }
+}
+
+.nav {
+    background-color: transparent;
+    transition: height 500ms ease-in, color 200ms, background-color 300ms ease-out;
+}
+
+.scrolled {
+    background-color: #ffffff;
+    box-shadow: 0 4px 5px -2px #e0e0e0;
+}
