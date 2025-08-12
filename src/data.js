@@ -204,7 +204,7 @@ export const teams_data = [
     name: "Mr Paramasivam",
     role: "Member",
     links: {
-      git: "",
+      git: "https://github.com/PARAMASIVAM52",
       linkedin: "https://www.linkedin.com/in/paramasivam-v-4b2069329/",
     },
   },
