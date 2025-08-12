@@ -133,7 +133,6 @@ export const gallery_data = [
   },
 ];
 
-import photo_1 from "./assets/teams/thariq.jpg";
 import photo_2 from "./assets/teams/Asvitha.jpg";
 import photo_3 from "./assets/teams/sheik.jpg";
 import photo_4 from "./assets/teams/monika.jpg";
@@ -147,23 +146,23 @@ import photo_11 from "./assets/teams/sivam.jpg";
 
 export const teams_data = [
   {
-    photo: photo_1,
-    name: "Mr Thariq Hameed",
+    photo: photo_2,
+    name: "Asvitha Sivabalan",
     role: "Chair Person",
     links: {
       git: "https://github.com/Thariiq07",
       linkedin: "https://www.linkedin.com/in/thariq-hameed-784258252",
     },
   },
-  {
-    photo: photo_2,
-    name: "Asvitha Sivabalan",
-    role: "Vice Chair",
-    links: {
-      git: "",
-      linkedin: "https://www.linkedin.com/in/asvithasivabalan2105/",
-    },
-  },
+  // {
+  //   photo: photo_2,
+  //   name: "Asvitha Sivabalan",
+  //   role: "Vice Chair",
+  //   links: {
+  //     git: "",
+  //     linkedin: "https://www.linkedin.com/in/asvithasivabalan2105/",
+  //   },
+  // },
   {
     photo: photo_3,
     name: "Mr Mohamed Sheik Noor",
