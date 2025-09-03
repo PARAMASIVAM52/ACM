@@ -163,15 +163,15 @@ export const teams_data = [
   //     linkedin: "https://www.linkedin.com/in/asvithasivabalan2105/",
   //   },
   // },
-  {
-    photo: photo_3,
-    name: "Mr Mohamed Sheik Noor",
-    role: "Secretary",
-    links: {
-      git: "",
-      linkedin: "",
-    },
-  },
+  // {
+  //   photo: photo_3,
+  //   name: "Mr Mohamed Sheik Noor",
+  //   role: "Secretary",
+  //   links: {
+  //     git: "",
+  //     linkedin: "",
+  //   },
+  // },
   {
     photo: photo_4,
     name: "Ms Monika",
