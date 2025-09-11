@@ -67,6 +67,15 @@ export const events_data = [
 Help you generate innovative project ideas, Mentor you based on your idea, Give you a clear picture of what’s feasible and what’s not
 `,
   },
+  {
+    id: 4,
+    image: "/Events/event_4.jpg",
+    event_name: "FigMatrix - ACM Inaugural",
+    date: "19th September 2025",
+    year: "2025",
+    status: "Upcoming",
+    description: `As part of the ACM student chapter inauguration, a creative and interactive Figma design event was conducted, encouraging participants to explore UI/UX concepts and showcase their design skills.`,
+  },
 ];
 // for event status the values are either Upcomming or Finished
 
