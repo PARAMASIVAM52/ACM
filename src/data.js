@@ -142,65 +142,57 @@ export const gallery_data = [
   },
 ];
 
+import photo_1 from "./assets/teams/SenthilKumar.jpg";
 import photo_2 from "./assets/teams/Asvitha.jpg";
-import photo_3 from "./assets/teams/sheik.jpg";
-import photo_4 from "./assets/teams/monika.jpg";
-import photo_5 from "./assets/teams/pugazh.jpg";
-import photo_6 from "./assets/teams/amshavarthan.jpg";
-import photo_7 from "./assets/teams/paramasivam.jpg";
-import photo_8 from "./assets/teams/bala_vignesh.jpg";
-import photo_9 from "./assets/teams/varshini.jpg";
-import photo_10 from "./assets/teams/Gokul.jpg";
-import photo_11 from "./assets/teams/sivam.jpg";
+import photo_3 from "./assets/teams/monika.jpg";
+import photo_4 from "./assets/teams/pugazh.jpg";
+import photo_5 from "./assets/teams/sivam.jpg";
+import photo_6 from "./assets/teams/paramasivam.jpg";
+import photo_7 from "./assets/teams/bala_vignesh.jpg";
+import photo_8 from "./assets/teams/varshini.jpg";
+import photo_9 from "./assets/teams/Gokul.jpg";
+import photo_10 from "./assets/teams/amshavarthan.jpg";
+import photo_11 from "./assets/teams/Anush.jpg";
 
 export const teams_data = [
   {
-    photo: photo_2,
-    name: "Asvitha Sivabalan",
-    role: "Chair Person",
-    links: {
-      git: "https://github.com/Thariiq07",
-      linkedin: "https://www.linkedin.com/in/thariq-hameed-784258252",
-    },
-  },
-  // {
-  //   photo: photo_2,
-  //   name: "Asvitha Sivabalan",
-  //   role: "Vice Chair",
-  //   links: {
-  //     git: "",
-  //     linkedin: "https://www.linkedin.com/in/asvithasivabalan2105/",
-  //   },
-  // },
-  // {
-  //   photo: photo_3,
-  //   name: "Mr Mohamed Sheik Noor",
-  //   role: "Secretary",
-  //   links: {
-  //     git: "",
-  //     linkedin: "",
-  //   },
-  // },
-  {
-    photo: photo_4,
-    name: "Ms Monika",
-    role: "Treasurer",
-    links: {
-      git: "",
-      linkedin: "https://www.linkedin.com/in/monikasundar0412/",
-    },
-  },
-  {
-    photo: photo_5,
-    name: "Mr Pugazhendhi",
-    role: "Web Master",
+    photo: photo_1,
+    name: "Mr Senthilkumar",
+    role: "Faculty Sponser",
     links: {
       git: "",
       linkedin: "",
     },
   },
   {
-    photo: photo_11,
+    photo: photo_2,
+    name: " Ms Asvitha Sivabalan",
+    role: "Chair Person",
+    links: {
+      git: "",
+      linkedin: "https://www.linkedin.com/in/asvithasivabalan2105/",
+    },
+  },
+  {
+    photo: photo_3,
+    name: "Ms Monika",
+    role: "Treasurer",
+    links: {
+      git: "https://github.com/monika04122004",
+      linkedin: "https://www.linkedin.com/in/monikasundar0412/",
+    },
+  },
+  {
+    photo: photo_4,
+    name: "Mr Pugazhendhi",
+    role: "Web Master",
+    links: {
+      git: "https://github.com/darky9197",
+      linkedin: "https://in.linkedin.com/in/pugazhendhi-siva",
+    },
+  },
+  {
+    photo: photo_5,
     name: "Mr Sivam",
     role: "Technical Head",
     links: {
@@ -209,7 +201,7 @@ export const teams_data = [
     },
   },
   {
-    photo: photo_7,
+    photo: photo_6,
     name: "Mr Paramasivam",
     role: "Member",
     links: {
@@ -218,7 +210,7 @@ export const teams_data = [
     },
   },
   {
-    photo: photo_8,
+    photo: photo_7,
     name: "Mr Bala Vignesh",
     role: "Member",
     links: {
@@ -227,18 +219,27 @@ export const teams_data = [
     },
   },
   {
-    photo: photo_9,
+    photo: photo_8,
     name: "Ms GeethaVarshini",
     role: "Member",
     links: {
-      git: "",
+      git: "https://github.com/GeedhavarshiniV",
       linkedin:
         "https://www.linkedin.com/in/geedhavarshini-vijayabhaskar-799926337/",
     },
   },
   {
-    photo: photo_10,
+    photo: photo_9,
     name: "Mr Gokul Raj",
+    role: "Member",
+    links: {
+      git: "",
+      linkedin: "https://www.linkedin.com/in/gokul-raj-638067329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+  },
+  {
+    photo: photo_10,
+    name: "Mr Amshavarthan",
     role: "Member",
     links: {
       git: "",
@@ -246,8 +247,8 @@ export const teams_data = [
     },
   },
   {
-    photo: photo_6,
-    name: "Mr Amshavarthan",
+    photo: photo_11,
+    name: "Mr Anush",
     role: "Member",
     links: {
       git: "",
