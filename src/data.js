@@ -161,7 +161,7 @@ export const teams_data = [
     role: "Faculty Sponser",
     links: {
       git: "",
-      linkedin: "",
+      linkedin: "http://www.linkedin.com/in/senthil-kumar-b-788934b7",
     },
   },
   {
@@ -169,7 +169,7 @@ export const teams_data = [
     name: " Ms Asvitha Sivabalan",
     role: "Chair Person",
     links: {
-      git: "",
+      git: "https://github.com/Ahtivsa21",
       linkedin: "https://www.linkedin.com/in/asvithasivabalan2105/",
     },
   },
@@ -196,7 +196,7 @@ export const teams_data = [
     name: "Mr Sivam",
     role: "Technical Head",
     links: {
-      git: "",
+      git: "https://github.com/sivam72",
       linkedin: "https://www.linkedin.com/in/sivam-m-269b72279/",
     },
   },
@@ -214,7 +214,7 @@ export const teams_data = [
     name: "Mr Bala Vignesh",
     role: "Member",
     links: {
-      git: "",
+      git: "https://github.com/vickybala012",
       linkedin: "https://www.linkedin.com/in/balavignesh-b-bb0672337/",
     },
   },
@@ -233,7 +233,7 @@ export const teams_data = [
     name: "Mr Gokul Raj",
     role: "Member",
     links: {
-      git: "",
+      git: "https://github.com/Gokulraj2709",
       linkedin: "https://www.linkedin.com/in/gokul-raj-638067329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   },
