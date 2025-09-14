@@ -166,7 +166,11 @@ export const teams_data = [
   },
   {
     photo: photo_2,
+<<<<<<< HEAD
     name: "Ms Asvitha Sivabalan",
+=======
+    name: " Ms Asvitha Sivabalan",
+>>>>>>> 87eb3f684a8e15d485124eb5e38fb0e97ce15331
     role: "Chair Person",
     links: {
       git: "https://github.com/Ahtivsa21",
@@ -255,4 +259,8 @@ export const teams_data = [
       linkedin: "",
     },
   },
+<<<<<<< HEAD
 ];
+=======
+];
+>>>>>>> 87eb3f684a8e15d485124eb5e38fb0e97ce15331
