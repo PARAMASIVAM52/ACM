@@ -28,7 +28,7 @@ export const features_list = [
 export const events_data = [
   {
     id: 1,
-    image: "/Events/event_3.jpg",
+    image: "/Events/event_1.jpg",
     event_name: "Lab Welcoming Session",
     date: "24th Feb 2025 & 25th Feb 2025",
     year: "2025",
@@ -48,7 +48,7 @@ export const events_data = [
   },
   {
     id: 3,
-    image: "/Events/event_1.jpg",
+    image: "/Events/event_3.jpg",
     event_name: "Code Combat - ACM Inaugural",
     date: "11th March 2025",
     year: "2025",
@@ -57,7 +57,7 @@ export const events_data = [
       "As part of the ACM Inauguration function, A creative and intractive auction based coding contest was conducted.",
   },
   {
-    id: 3,
+    id: 4,
     image: "/Events/event_4.jpg",
     event_name: "Design Thinking Workshop",
     date: "15th April 2025",
@@ -68,8 +68,17 @@ Help you generate innovative project ideas, Mentor you based on your idea, Give 
 `,
   },
   {
-    id: 4,
+    id: 5,
     image: "/Events/event_5.jpg",
+    event_name: "Problem Solving and Computational Thinking  - ACM Inaugural",
+    date: "16th September 2025 & 19th-September 2025",
+    year: "2025",
+    status: "OnGoing",
+    description: `The Velammal ITech ACM Student Chapter conducted a workshop on Problem Solving and Computational Thinking to enhance students’ logical skills and innovative thinking.`,
+  },
+  {
+    id: 6,
+    image: "/Events/event_6.jpg",
     event_name: "FigMatrix - ACM Inaugural",
     date: "19th September 2025",
     year: "2025",
@@ -136,9 +145,27 @@ export const gallery_data = [
   },
   {
     id: 10,
-    event: "ACM Inauguration",
+    event: "Problem Solving and Compuational Thinking",
     year: "2025",
-    image: "/Gallery/winners_1.jpg",
+    image: "/Gallery/Problem_Solving_1.jpg",
+  },
+  {
+    id: 11,
+    event: "Problem Solving and Compuational Thinking",
+    year: "2025",
+    image: "/Gallery/Problem_Solving_2.jpg",
+  },
+  {
+    id: 12,
+    event: "Problem Solving and Compuational Thinking",
+    year: "2025",
+    image: "/Gallery/Problem_Solving_3.jpg",
+  },
+  {
+    id: 13,
+    event: "Problem Solving and Compuational Thinking",
+    year: "2025",
+    image: "/Gallery/Problem_Solving_4.jpg",
   },
 ];
 
