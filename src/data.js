@@ -73,7 +73,7 @@ Help you generate innovative project ideas, Mentor you based on your idea, Give 
     event_name: "Problem Solving and Computational Thinking  - ACM Inaugural",
     date: "16th September 2025 & 19th-September 2025",
     year: "2025",
-    status: "OnGoing",
+    status: "Finished",
     description: `The Velammal ITech ACM Student Chapter conducted a workshop on Problem Solving and Computational Thinking to enhance students’ logical skills and innovative thinking.`,
   },
   {
@@ -82,7 +82,7 @@ Help you generate innovative project ideas, Mentor you based on your idea, Give 
     event_name: "FigMatrix - ACM Inaugural",
     date: "19th September 2025",
     year: "2025",
-    status: "Upcoming",
+    status: "Finished",
     description: `As part of the ACM student chapter inauguration, a creative and interactive Figma design event was conducted, encouraging participants to explore UI/UX concepts and showcase their design skills.`,
   },
 ];
@@ -167,6 +167,36 @@ export const gallery_data = [
     year: "2025",
     image: "/Gallery/Problem_Solving_4.jpg",
   },
+  {
+    id: 14,
+    event: "Figmatrix",
+    year: "2025",
+    image: "/Gallery/Figmatrix_5.jpg",
+  },
+  {
+    id: 15,
+    event: "Figmatrix",
+    year: "2025",
+    image: "/Gallery/Figmatrix_4.jpg",
+  },
+  {
+    id: 16,
+    event: "Figmatrix",
+    year: "2025",
+    image: "/Gallery/Figmatrix_3.jpg",
+  },
+  {
+    id: 17,
+    event: "Figmatrix",
+    year: "2025",
+    image: "/Gallery/Figmatrix_2.jpg",
+  },
+  {
+    id: 18,
+    event: "Figmatrix",
+    year: "2025",
+    image: "/Gallery/Figmatrix_1.jpg",
+  },
 ];
 
 import photo_1 from "./assets/teams/SenthilKumar.jpg";
@@ -176,10 +206,12 @@ import photo_4 from "./assets/teams/pugazh.jpg";
 import photo_5 from "./assets/teams/sivam.jpg";
 import photo_6 from "./assets/teams/paramasivam.jpg";
 import photo_7 from "./assets/teams/bala_vignesh.jpg";
-import photo_8 from "./assets/teams/varshini.jpg";
+import photo_8 from "./assets/teams/Geedhavarshini.jpg";
 import photo_9 from "./assets/teams/Gokul.jpg";
 import photo_10 from "./assets/teams/amshavarthan.jpg";
-import photo_11 from "./assets/teams/Anush.jpg";
+import photo_11 from "./assets/teams/Sanjaykhanth.jpg";
+import photo_12 from "./assets/teams/Anush.jpg";
+import photo_13 from "./assets/teams/Triambiga.jpg";
 
 export const teams_data = [
   {
@@ -275,11 +307,29 @@ export const teams_data = [
   },
   {
     photo: photo_11,
+    name: "Mr SanjayKhanth",
+    role: "Member",
+    links: {
+      git: "",
+      linkedin: "",
+    },
+  },
+  {
+    photo: photo_12,
     name: "Mr Anush",
     role: "Member",
     links: {
       git: "",
       linkedin: "",
+    },
+  },
+  {
+    photo: photo_13,
+    name: "Ms Triambiga",
+    role: "Member",
+    links: {
+      git: "https://github.com/TriambigaKrubhakaran",
+      linkedin: "https://www.linkedin.com/in/triambiga-krubhakaran-031553349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   },
 ]
