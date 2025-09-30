@@ -70,7 +70,7 @@ Help you generate innovative project ideas, Mentor you based on your idea, Give 
   {
     id: 5,
     image: "/Events/event_5.jpg",
-    event_name: "Problem Solving and Computational Thinking  - ACM Inaugural",
+    event_name: "Problem Solving and Computational Thinking WorkShop",
     date: "16th September 2025 & 19th-September 2025",
     year: "2025",
     status: "Finished",
@@ -79,12 +79,23 @@ Help you generate innovative project ideas, Mentor you based on your idea, Give 
   {
     id: 6,
     image: "/Events/event_6.jpg",
+    event_name: "Tech Talk",
+    date: "18th-September 2025",
+    year: "2025",
+    status: "Finished",
+    description: `The Velammal ITech ACM Student Chapter conducted a workshop on Personalized Education Using Gen AI to enhance students’ skills and innovative Knowledge.`,
+  },
+  
+  {
+    id: 7,
+    image: "/Events/event_7.jpg",
     event_name: "FigMatrix - ACM Inaugural",
     date: "19th September 2025",
     year: "2025",
     status: "Finished",
     description: `As part of the ACM student chapter inauguration, a creative and interactive Figma design event was conducted, encouraging participants to explore UI/UX concepts and showcase their design skills.`,
   },
+  
 ];
 // for event status the values are either Upcomming or Finished
 
@@ -169,30 +180,48 @@ export const gallery_data = [
   },
   {
     id: 14,
-    event: "Figmatrix",
+    event: "Tech Talk",
     year: "2025",
-    image: "/Gallery/Figmatrix_5.jpg",
+    image: "/Gallery/Tech_Talk_1.jpg",
   },
   {
     id: 15,
-    event: "Figmatrix",
+    event: "Tech Talk",
     year: "2025",
-    image: "/Gallery/Figmatrix_4.jpg",
+    image: "/Gallery/Tech_Talk_2.jpg",
   },
   {
     id: 16,
-    event: "Figmatrix",
+    event: "Tech Talk",
     year: "2025",
-    image: "/Gallery/Figmatrix_3.jpg",
+    image: "/Gallery/Tech_Talk_3.jpg",
   },
   {
     id: 17,
     event: "Figmatrix",
     year: "2025",
-    image: "/Gallery/Figmatrix_2.jpg",
+    image: "/Gallery/Figmatrix_5.jpg",
   },
   {
     id: 18,
+    event: "Figmatrix",
+    year: "2025",
+    image: "/Gallery/Figmatrix_4.jpg",
+  },
+  {
+    id: 19,
+    event: "Figmatrix",
+    year: "2025",
+    image: "/Gallery/Figmatrix_3.jpg",
+  },
+  {
+    id: 20,
+    event: "Figmatrix",
+    year: "2025",
+    image: "/Gallery/Figmatrix_2.jpg",
+  },
+  {
+    id: 21,
     event: "Figmatrix",
     year: "2025",
     image: "/Gallery/Figmatrix_1.jpg",
@@ -201,8 +230,8 @@ export const gallery_data = [
 
 import photo_1 from "./assets/teams/SenthilKumar.jpg";
 import photo_2 from "./assets/teams/Asvitha.jpg";
-import photo_3 from "./assets/teams/monika.jpg";
-import photo_4 from "./assets/teams/pugazh.jpg";
+import photo_4 from "./assets/teams/monika.jpg";
+import photo_3 from "./assets/teams/pugazh.jpg";
 import photo_5 from "./assets/teams/sivam.jpg";
 import photo_6 from "./assets/teams/paramasivam.jpg";
 import photo_7 from "./assets/teams/bala_vignesh.jpg";
@@ -234,6 +263,15 @@ export const teams_data = [
   },
   {
     photo: photo_3,
+    name: "Mr Pugazhendhi",
+    role: "Vice Chair",
+    links: {
+      git: "https://github.com/darky9197",
+      linkedin: "https://in.linkedin.com/in/pugazhendhi-siva",
+    },
+  },
+  {
+    photo: photo_4,
     name: "Ms Monika",
     role: "Treasurer",
     links: {
@@ -241,15 +279,7 @@ export const teams_data = [
       linkedin: "https://www.linkedin.com/in/monikasundar0412/",
     },
   },
-  {
-    photo: photo_4,
-    name: "Mr Pugazhendhi",
-    role: "Web Master",
-    links: {
-      git: "https://github.com/darky9197",
-      linkedin: "https://in.linkedin.com/in/pugazhendhi-siva",
-    },
-  },
+  
   {
     photo: photo_5,
     name: "Mr Sivam",
@@ -262,7 +292,7 @@ export const teams_data = [
   {
     photo: photo_6,
     name: "Mr Paramasivam",
-    role: "Member",
+    role: "Web Master",
     links: {
       git: "https://github.com/PARAMASIVAM52",
       linkedin: "https://www.linkedin.com/in/paramasivam-v-4b2069329/",
@@ -271,7 +301,7 @@ export const teams_data = [
   {
     photo: photo_7,
     name: "Mr Bala Vignesh",
-    role: "Member",
+    role: "Secretary",
     links: {
       git: "https://github.com/vickybala012",
       linkedin: "https://www.linkedin.com/in/balavignesh-b-bb0672337/",
