@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { features_list } from '../data'
 
-
 const Featurescontainer = styled.div`
     display: grid;
     grid-gap: 1rem;
@@ -76,8 +75,6 @@ const Featurescontainer = styled.div`
             }
         }
     }
-    
-  
 `
 
 function Featues() {

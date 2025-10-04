@@ -280,15 +280,15 @@ export const teams_data = [
     },
   },
   
-  {
-    photo: photo_5,
-    name: "Mr Sivam",
-    role: "Technical Head",
-    links: {
-      git: "https://github.com/sivam72",
-      linkedin: "https://www.linkedin.com/in/sivam-m-269b72279/",
-    },
-  },
+  // {
+  //   photo: photo_5,
+  //   name: "Mr Sivam",
+  //   role: "Technical Head",
+  //   links: {
+  //     git: "https://github.com/sivam72",
+  //     linkedin: "https://www.linkedin.com/in/sivam-m-269b72279/",
+  //   },
+  // },
   {
     photo: photo_6,
     name: "Mr Paramasivam",
@@ -298,19 +298,19 @@ export const teams_data = [
       linkedin: "https://www.linkedin.com/in/paramasivam-v-4b2069329/",
     },
   },
-  {
-    photo: photo_7,
-    name: "Mr Bala Vignesh",
-    role: "Secretary",
-    links: {
-      git: "https://github.com/vickybala012",
-      linkedin: "https://www.linkedin.com/in/balavignesh-b-bb0672337/",
-    },
-  },
+  // {
+  //   photo: photo_7,
+  //   name: "Mr Bala Vignesh",
+  //   role: "Secretary",
+  //   links: {
+  //     git: "https://github.com/vickybala012",
+  //     linkedin: "https://www.linkedin.com/in/balavignesh-b-bb0672337/",
+  //   },
+  // },
   {
     photo: photo_8,
     name: "Ms GeethaVarshini",
-    role: "Member",
+    role: "Technical Head",
     links: {
       git: "https://github.com/GeedhavarshiniV",
       linkedin:
@@ -326,24 +326,24 @@ export const teams_data = [
       linkedin: "https://www.linkedin.com/in/gokul-raj-638067329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   },
-  {
-    photo: photo_10,
-    name: "Mr Amshavarthan",
-    role: "Member",
-    links: {
-      git: "",
-      linkedin: "",
-    },
-  },
-  {
-    photo: photo_11,
-    name: "Mr SanjayKhanth",
-    role: "Member",
-    links: {
-      git: "",
-      linkedin: "",
-    },
-  },
+  // {
+  //   photo: photo_10,
+  //   name: "Mr Amshavarthan",
+  //   role: "Member",
+  //   links: {
+  //     git: "",
+  //     linkedin: "",
+  //   },
+  // },
+  // {
+  //   photo: photo_11,
+  //   name: "Mr SanjayKhanth",
+  //   role: "Member",
+  //   links: {
+  //     git: "",
+  //     linkedin: "",
+  //   },
+  // },
   {
     photo: photo_12,
     name: "Mr Anush",
@@ -362,4 +362,13 @@ export const teams_data = [
       linkedin: "https://www.linkedin.com/in/triambiga-krubhakaran-031553349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   },
+  // {
+  //   photo: photo_14,
+  // name: "Ms Shivani",
+  //   role: "Member",
+  //   links: {
+  //     git: "https://github.com/shivanim200705-crypto",
+  //     linkedin: "https://www.linkedin.com/in/shivani-m-0b8b50375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  //   },
+  // },
 ]

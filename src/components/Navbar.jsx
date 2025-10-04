@@ -136,7 +136,7 @@ function Navbar(props) {
           setmenuOpen(true);
         }
       }
-    
+      
     return (
         <Navcontainer className={navState ? "nav" : "scrolled"} ref={navHeight} >
             <div className="logos">
