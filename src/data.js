@@ -360,7 +360,7 @@ export const teams_data = [
     name: "Mr Anush",
     role: "Member",
     links: {
-      git: "",
+      git: "https://github.com/it24003-anush",
       linkedin: "https://www.linkedin.com/in/anush-ms-b0969436b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   },
