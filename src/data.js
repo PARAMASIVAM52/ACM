@@ -239,8 +239,10 @@ import photo_8 from "./assets/teams/Geedhavarshini.jpg";
 import photo_9 from "./assets/teams/Gokul.jpg";
 import photo_10 from "./assets/teams/amshavarthan.jpg";
 import photo_11 from "./assets/teams/Sanjaykhanth.jpg";
-import photo_12 from "./assets/teams/Anush.jpg";
-import photo_13 from "./assets/teams/Triambiga.jpg";
+import photo_12 from "./assets/teams/Arshad.jpg";
+import photo_13 from "./assets/teams/Anush.jpg";
+import photo_14 from "./assets/teams/Triambiga.jpg";
+import photo_15 from "./assets/teams/Shivani.jpg";
 
 export const teams_data = [
   {
@@ -346,15 +348,24 @@ export const teams_data = [
   // },
   {
     photo: photo_12,
-    name: "Mr Anush",
+    name: "Mr Arshad",
     role: "Member",
     links: {
-      git: "",
-      linkedin: "",
+      git: "https://github.com/Arshad-327",
+      linkedin: "https://www.linkedin.com/in/arshad-h-133513370?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   },
   {
     photo: photo_13,
+    name: "Mr Anush",
+    role: "Member",
+    links: {
+      git: "",
+      linkedin: "https://www.linkedin.com/in/anush-ms-b0969436b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+  },
+  {
+    photo: photo_14,
     name: "Ms Triambiga",
     role: "Member",
     links: {
@@ -362,13 +373,13 @@ export const teams_data = [
       linkedin: "https://www.linkedin.com/in/triambiga-krubhakaran-031553349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   },
-  // {
-  //   photo: photo_14,
-  // name: "Ms Shivani",
-  //   role: "Member",
-  //   links: {
-  //     git: "https://github.com/shivanim200705-crypto",
-  //     linkedin: "https://www.linkedin.com/in/shivani-m-0b8b50375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  //   },
-  // },
+  {
+    photo: photo_15,
+  name: "Ms Shivani",
+    role: "Member",
+    links: {
+      git: "https://github.com/shivanim200705-crypto",
+      linkedin: "https://www.linkedin.com/in/shivani-m-0b8b50375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+  },
 ]
