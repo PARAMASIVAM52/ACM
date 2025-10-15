@@ -85,7 +85,7 @@ Help you generate innovative project ideas, Mentor you based on your idea, Give 
     status: "Finished",
     description: `The Velammal ITech ACM Student Chapter conducted a workshop on Personalized Education Using Gen AI to enhance students’ skills and innovative Knowledge.`,
   },
-  
+
   {
     id: 7,
     image: "/Events/event_7.jpg",
@@ -95,7 +95,7 @@ Help you generate innovative project ideas, Mentor you based on your idea, Give 
     status: "Finished",
     description: `As part of the ACM student chapter inauguration, a creative and interactive Figma design event was conducted, encouraging participants to explore UI/UX concepts and showcase their design skills.`,
   },
-  
+
 ];
 // for event status the values are either Upcomming or Finished
 
@@ -243,6 +243,11 @@ import photo_12 from "./assets/teams/Arshad.jpg";
 import photo_13 from "./assets/teams/Anush.jpg";
 import photo_14 from "./assets/teams/Triambiga.jpg";
 import photo_15 from "./assets/teams/Shivani.jpg";
+import photo_16 from "./assets/teams/Nabitha.jpg";
+import photo_17 from "./assets/teams/MahaVarshini.jpg";
+import photo_18 from "./assets/teams/Dharshini.jpg";
+import photo_19 from "./assets/teams/Vasanthi.jpg";
+import photo_20 from "./assets/teams/Mahaprathyushakolusu.jpg";
 
 export const teams_data = [
   {
@@ -281,7 +286,7 @@ export const teams_data = [
       linkedin: "https://www.linkedin.com/in/monikasundar0412/",
     },
   },
-  
+
   // {
   //   photo: photo_5,
   //   name: "Mr Sivam",
@@ -328,15 +333,15 @@ export const teams_data = [
       linkedin: "https://www.linkedin.com/in/gokul-raj-638067329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   },
-  // {
-  //   photo: photo_10,
-  //   name: "Mr Amshavarthan",
-  //   role: "Member",
-  //   links: {
-  //     git: "",
-  //     linkedin: "",
-  //   },
-  // },
+  {
+    photo: photo_10,
+    name: "Mr Amshavarthan",
+    role: "Member",
+    links: {
+      git: "https://github.com/Amshavarthen",
+      linkedin: "https://www.linkedin.com/in/amshavarthen-s-871783294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+  },
   // {
   //   photo: photo_11,
   //   name: "Mr SanjayKhanth",
@@ -375,11 +380,57 @@ export const teams_data = [
   },
   {
     photo: photo_15,
-  name: "Ms Shivani",
+    name: "Ms Shivani",
     role: "Member",
     links: {
       git: "https://github.com/shivanim200705-crypto",
       linkedin: "https://www.linkedin.com/in/shivani-m-0b8b50375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
   },
+  {
+    photo: photo_16,
+    name: "Ms Nabitha",
+    role: "Member",
+    links: {
+      git: "https://github.com/nabitha2007-creator",
+      linkedin: "https://www.linkedin.com/in/nabitha-varathan-34a16936b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+  },
+  {
+    photo: photo_17,
+    name: "Ms Shivani",
+    role: "Member",
+    links: {
+      git: "https://github.com/connecttomaha-creator",
+      linkedin: "https://www.linkedin.com/in/mahavarshini-sivaselvaraj-4b813a374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+  },
+  {
+    photo: photo_18,
+    name: "Ms Dharshini",
+    role: "Member",
+    links: {
+      git: "https://github.com/dharshinisanjeevgandhi-blip",
+      linkedin: "https://www.linkedin.com/in/dharshni-s-946556379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+  },
+  {
+    photo: photo_19,
+    name: "Ms Vasanthi",
+    role: "Member",
+    links: {
+      git: "https://github.com/vasan17j-web",
+      linkedin: "https://www.linkedin.com/in/vasanthi-j-7511a436b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+  },
+  {
+    photo: photo_20,
+    name: "Ms Maha Prathyusha Kolusu",
+    role: "Member",
+    links: {
+      git: "https://github.com/kolusumahaprathyusha-cloud",
+      linkedin: "https://www.linkedin.com/in/mahaprathyusha-kolusu-896122357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+  },
+  
 ]
