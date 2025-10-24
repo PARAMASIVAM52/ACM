@@ -96,6 +96,25 @@ Help you generate innovative project ideas, Mentor you based on your idea, Give 
     description: `As part of the ACM student chapter inauguration, a creative and interactive Figma design event was conducted, encouraging participants to explore UI/UX concepts and showcase their design skills.`,
   },
 
+  {
+    id: 7,
+    image: "/Events/event_7.jpg",
+    event_name: "FigMatrix - ACM Inaugural",
+    date: "19th September 2025",
+    year: "2025",
+    status: "Finished",
+    description: `As part of the ACM student chapter inauguration, a creative and interactive Figma design event was conducted, encouraging participants to explore UI/UX concepts and showcase their design skills.`,
+  },
+  {
+    id: 8,
+    image: "/Events/event_8.jpg",
+    event_name: "Ada's Decrypt - ACM Inaugural",
+    date: "20th October 2025",
+    year: "2025",
+    status: "Finished",
+    description: `As part of the ACM student chapter inauguration, a Level up your problem-solving skills and learn how to become an unstoppable developer by mastering the art of debugging..`,
+  },
+
 ];
 // for event status the values are either Upcomming or Finished
 
@@ -225,6 +244,30 @@ export const gallery_data = [
     event: "Figmatrix",
     year: "2025",
     image: "/Gallery/Figmatrix_1.jpg",
+  },
+  {
+    id: 22,
+    event: "Ada's Decrypt",
+    year: "2025",
+    image: "/Gallery/Ada's_Decrypt_1.jpg",
+  },
+  {
+    id: 23,
+    event: "Ada's Decrypt",
+    year: "2025",
+    image: "/Gallery/Ada's_Decrypt_2.jpg",
+  },
+  {
+    id: 24,
+    event: "Ada's Decrypt",
+    year: "2025",
+    image: "/Gallery/Ada's_Decrypt_3.jpg",
+  },
+  {
+    id: 25,
+    event: "Ada's Decrypt",
+    year: "2025",
+    image: "/Gallery/Ada's_Decrypt_4.jpg",
   },
 ];
 
