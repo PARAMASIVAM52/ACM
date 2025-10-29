@@ -95,16 +95,6 @@ Help you generate innovative project ideas, Mentor you based on your idea, Give 
     status: "Finished",
     description: `As part of the ACM student chapter inauguration, a creative and interactive Figma design event was conducted, encouraging participants to explore UI/UX concepts and showcase their design skills.`,
   },
-
-  {
-    id: 7,
-    image: "/Events/event_7.jpg",
-    event_name: "FigMatrix - ACM Inaugural",
-    date: "19th September 2025",
-    year: "2025",
-    status: "Finished",
-    description: `As part of the ACM student chapter inauguration, a creative and interactive Figma design event was conducted, encouraging participants to explore UI/UX concepts and showcase their design skills.`,
-  },
   {
     id: 8,
     image: "/Events/event_8.jpg",
@@ -113,6 +103,15 @@ Help you generate innovative project ideas, Mentor you based on your idea, Give 
     year: "2025",
     status: "Finished",
     description: `As part of the ACM student chapter inauguration, a Level up your problem-solving skills and learn how to become an unstoppable developer by mastering the art of debugging..`,
+  },
+  {
+    id: 9,
+    image: "/Events/event_9.jpg",
+    event_name: "ACM Interactive Session - ACM Inaugural",
+    date: "27th October 2025",
+    year: "2025",
+    status: "Finished",
+    description: `As as the ACM Student Chapter Inauguration, we conducted a Interactive session based on Algorithm for the Executive Members.`,
   },
 
 ];
@@ -268,6 +267,36 @@ export const gallery_data = [
     event: "Ada's Decrypt",
     year: "2025",
     image: "/Gallery/Ada's_Decrypt_4.jpg",
+  },
+  {
+    id: 26,
+    event: "Ada's Decrypt",
+    year: "2025",
+    image: "/Gallery/Ada's_Decrypt_4.jpg",
+  },
+  {
+    id: 27,
+    event: "ACM_Talk_Tech",
+    year: "2025",
+    image: "/Gallery/Acm_talk_Tech_1.jpg",
+  },
+  {
+    id: 28,
+    event: "ACM_Talk_Tech",
+    year: "2025",
+    image: "/Gallery/Acm_talk_Tech_2.jpg",
+  },
+  {
+    id: 29,
+    event: "ACM_Talk_Tech",
+    year: "2025",
+    image: "/Gallery/Acm_talk_Tech_3.jpg",
+  },
+  {
+    id: 30,
+    event: "ACM_Talk_Tech",
+    year: "2025",
+    image: "/Gallery/Acm_talk_Tech_4.jpg",
   },
 ];
 
